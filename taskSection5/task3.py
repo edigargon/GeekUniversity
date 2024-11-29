@@ -9,7 +9,5 @@
 
 """
 
-integer = 0
-while integer < 100000:
-    integer = integer + 1000
+for integer in range(0, 100001, 1000):
     print(integer)
